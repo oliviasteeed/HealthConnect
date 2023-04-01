@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>HealthConnect</title>
+
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/flexbox.css" rel="stylesheet">
+
+
+    <link rel="shortcut icon" href="../img/heart.png">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <a class="nav-item-left" href="../index.html">App</a>
+            <a class="nav-item-center site-title" href="../index.html">HealthConnect</a>
+            <a class="nav-item-right selected-link" href="../html/development.html">Development</a>
+        </nav>
+
+    </header>
+
+    <section class="wrapper"> <!-- all page content wrapper-->
+
+        <section class="section-wrapper bottom-margin"> <!-- Landing Page-->
+            <h1>Developing HealthConnect</h1>
+            <p>From research to concept to product</p>
+            <!-- <input class="button" type="submit" value="About the app" onclick="window.location.href='../index.html';"> -->
+        </section>
+
+        <section class="bottom-margin"> <!-- Research -->
+            <section class="section-wrapper">
+                <h2>Beginning with understanding</h2>
+                <p>HealthConnect’s development began by interviewing seniors above the age of 75 that lived independent
+                    of
+                    external care to understand opinions and relationships with technology. The team sought to
+                    understand
+                    and empathize with the intended users of the app with a desire to help.
+                </p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Identifying challenges</h3>
+                <p>Interviews centered around challenges in seniors’ lives and technology usage. We found challenges
+                    could be grouped into categories of physical and accessibility and technology use and understanding.
+                </p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Physical challenges</h4>
+                <p>All interviewees had chronic health conditions that impaired physical capabilities in varying
+                    degrees. This was important, as it suggested that seniors frequently are thinking about their health
+                    due to conditions.</p>
+
+                <figure>
+                    <blockquote>
+                        <p class="quote">“Everyday tasks like bed making, laundry, mopping or sweeping a floor are
+                            challenging. Osteoarthritis in my hands can make food prep difficult.”</p>
+                    </blockquote>
+                    <figcaption> -senior we interviewed explaining how health challenges impact daily life activities
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Mental challenges</h4>
+                <p>Interviewees noted experiencing brain fog and reduced cognitive clarity which led to issues
+                    remembering information, especially what tasks they had completed.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Technology challenges</h4>
+                <p>All interviewees reported their devices as positive additions to their lives, but many mentioned
+                    difficulties using technology due to a lack of accessible explanation or physical accessibility
+                    constraints.</p>
+
+                <figure>
+                    <blockquote>
+                        <p class="quote">“It scares me [be]cause I can’t figure out how it works. I would like to use it
+                            more.”</p>
+                    </blockquote>
+                    <figcaption> -senior we interviewed explaining conflicting attitudes on technology
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Identifying goals</h3>
+                <p>In interviews, seniors were asked about goals of technology use, and general goals. We compared
+                    responses to find commonalities among interviewees which were often health related.
+                </p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Health goals</h4>
+                <p>Seniors interviewed demonstrated the desire to remain functional and independent despite health
+                    concerns, and were motivated to engage in health-promoting activities.
+                </p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Technology goals</h4>
+
+                <h5>Information and education</h5>
+                <p>Seniors used technology to obtain new information as they reported lacking exposure to many others,
+                    so depended on the internet. Interviewees also noted anxiety over trusting online information and
+                    struggles deducing what is reputable.
+
+                <h5>Health management</h5>
+                <p>Many interviewees were already comfortable integrating technology into their healthcare activities
+                    and cited health tracking apps as their most used.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Persona creation</h4>
+                <p>Interview data was condensed into two personas of potential app users with different goals motivating
+                    usage. This helped us consider different perspectives and needs of end users throughout concept
+                    development.</p>
+
+                <h5>Marilou</h5>
+                <figure>
+                    <blockquote>
+                        <p class="persona-quote">“I want to access reliable health information without waiting months
+                            for a specialist appointment.”</p>
+                    </blockquote>
+                    <figcaption> Marilou was recently diagnosed with Diabetes. She lives in a rural area far from
+                        healthcare providers and is concerned about what to expect from her new condition with nobody to
+                        ask, so is experiencing anxiety for the future.
+                    </figcaption>
+                </figure>
+
+                <h5>Emerson</h5>
+                <figure>
+                    <blockquote>
+                        <p class="persona-quote">““I can’t depend on my memory to remember appointment details and
+                            health guidance.”</p>
+                    </blockquote>
+                    <figcaption>Emerson is an active senior who enjoys going on walks with his wife and traveling. He
+                        has early stage dementia and cannot remember all the details of his medical appointments, which
+                        he worries will lead to negative health outcomes, impairing his active lifestyle.
+                    </figcaption>
+                </figure>
+            </section>
+
+        </section>
+
+
+        <section class="bottom-margin"> <!-- Concept -->
+            <section class="section-wrapper">
+                <h2>Concept development</h2>
+                <p>Our secondary research confirmed that seniors feel empowered when they can manage their health
+                    through health-related technologies, yet they want more detailed and personalized information about
+                    disease and medication specifics <a href="https://pubmed.ncbi.nlm.nih.gov/30974780/">(1)</a>. We
+                    created three app concepts focused on promoting independent living and health, but pursued the one
+                    centralizing health data due to its mapping to user research and large estimated benefits to the
+                    target audience of seniors aging in place.
+                </p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Initial iterations</h3>
+                <p>Initial exploration of the HealthConnect concept included mapping the user flow through the app, and
+                    identifying different usage scenarios with storyboards. This allowed us to understand the unique
+                    user needs at different points in the app.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Feature refinement</h3>
+                <p>Drawing the flow between screens allowed us to understand the process of interaction, and what
+                    features were necessary. Original plans for HealthConnect included symptom tracking and community
+                    sharing. Symptom tracking would facilitate seniors to create a pool of data, which would be
+                    summarized into easily readable charts for physicians to overview during appointments, instead of
+                    relying only on patient memory for symptom information. Community sharing would reduce the isolation
+                    that chronic health conditions and retirement can impose and allow seniors to share coping
+                    strategies.</p>
+            </section>
+
+            <div class="image-wrapper">
+                <figure class="image-caption-box">
+                    <img src="../img/sketches-2x.png" srcset="../img/sketches-1x.png 1x, ../img/sketches-2x.png 2x"
+                        alt="">
+                        <figcaption>Interface sketches mapping out each main feature</figcaption>
+                </figure>
+            </div>
+
+            <section class="section-wrapper">
+                <p>Although these features would have positive impacts, we decided to focus on the main function of the
+                    app, which is connecting and viewing health records and appointments, first. Other features could be
+                    added later in future updates, but it was critical that the principal functions were smooth and
+                    usable to ensure the app satisfied user and developer goals.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Dual path login</h3>
+                <p>Through mapping the features and creating user flows and wireframes of app usage, we realized the
+                    need for manual data input was also important if users do not or cannot connect the app to their
+                    official health records. This led to two account creation options that allow automatic health data
+                    connection or manual input. </p>
+            </section>
+
+            <div class="image-wrapper">
+                <figure class="image-caption-box">
+                    <img src="../img/app-split-2x.png" srcset="../img/app-split-1x.png 1x, ../img/app-split-2x.png 2x"
+                        alt="">
+                        <figcaption>App login split user flow</figcaption>
+                </figure>
+
+                <figure class="image-caption-box">
+                    <img src="../img/appts-flow-2x.png" srcset="../img/appts-flow-1x.png 1x, ../img/appts-flow-2x.png 2x"
+                        alt="">
+                        <figcaption>Appointments log user flow</figcaption>
+                </figure>
+
+                <figure class="image-caption-box">
+                    <img src="../img/appts-flow-2x.png" srcset="../img/appts-flow-1x.png 1x, ../img/appts-flow-2x.png 2x"
+                        alt="">
+                        <figcaption>Appointments log user flow</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="bottom-margin"> <!-- Interface -->
+            <section class="section-wrapper">
+                <h2>Interface development</h2>
+                <p>Once we converged on a concept to pursue, we explored several interface options to find what
+                    represented the app as professional, functional and simple, while keeping in mind interface best
+                    practices for seniors. This included enlarging text, increasing contrast and ensuring adequate
+                    feedback for actions to promote understanding <a
+                        href=" https://eldertech.org/ui-design-best-practices-for-seniors/">(2)</a>.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Initial interface concepts</h3>
+                <p>Initial interface concepts explored paths for information design using different kinds of tabs and
+                    buttons as well as colours and type. </p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Refined interface concepts</h3>
+                <p>All three visual directions explored were combined into an initial interface to convey the Health Hub
+                    and Appointments components of the app. These mockups were translated into an interactive prototype
+                    used to test these app functionalities and gain feedback to improve the product.</p>
+            </section>
+        </section>
+
+        <section class="bottom-margin"> <!-- User Testing -->
+            <section class="section-wrapper">
+                <h2>User testing</h2>
+                <p>The interactive prototype was tested by 5 people varying in ages from 20 to 78 on a variety of common
+                    app tasks followed by an interview to gain insight into their understanding and experience. We
+                    tested remotely and in-person to get a diverse pool of testers. Key goals of testing were usability
+                    targets based on Nielsen’s 5 components of usability <a
+                        href="https://www.nngroup.com/articles/usability-101-introduction-to-usability/">(3)</a> and
+                    content testing to see if the app
+                    appealed to people and would be used.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h3>Testing results</h3>
+                <p>Testing results revealed that many tasks were difficult and unnatural to users, and that the purpose
+                    of the app was unclear, leading to lack of interest. These were important insights that would have
+                    gone unnoticed without testing.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Usability insights</h4>
+                <p>The usability testing and interview transcripts were condensed into four key insights that informed a
+                    redesign and reconceptualization of HealthConnect.</p>
+
+                <h5>Revealing options</h5>
+                <p>Participants struggled to use app functions hidden by navigation, as older testers especially did not
+                    explore the interface independently. This would lead users to not use all app features. We addressed
+                    this by making options visible without additional interaction.</p>
+
+                <h5>Explaining app purpose</h5>
+                <p>Until participants understood the app purpose, they were confused and did not find it valuable.
+                    Additionally, a lack of explanation for their actions led to confusion and misunderstanding. We
+                    addressed this issues by including supplementary copy throughout the app and creating an onboarding
+                    tutorial to familiarize users with main features.</p>
+
+                <h5>Content hierarchy</h5>
+                <p>Initial condition and medication content was overwhelming to users and lacked relevance as
+                    introductory information was organized with highest priority. Participants appreciated having
+                    reputable information on hand, but restructuring condition and medication content based on usage
+                    would allow users to quickly access what they need.</p>
+
+                <h5>Assistive interface</h5>
+                <p>Navigation and interaction was impaired by the lack of clear hierarchy and interaction points.
+                    Additionally, the focus on text entry led to input errors which could be problematic. To remedy this
+                    we redesigned the interface to assist user interaction and understanding using contrasting elements
+                    to create visual hierarchy and assistive inputs when possible.</p>
+            </section>
+
+            <section class="section-wrapper">
+                <h4>Additional insights</h4>
+                <p>In addition to usability findings, interviews helped us understand the mental models and attitudes of
+                    potential users. This allowed us to confirm the validity of the app, and focus on what was important
+                    to keep and improve.</p>
+
+                <h5>Revealing options</h5>
+                <p>Participants struggled to use app functions hidden by navigation, as older testers especially did not
+                    explore the interface independently. This would lead users to not use all app features. We addressed
+                    this by making options visible without additional interaction.</p>
+
+                <h5>Positive reception</h5>
+                <p>After explanation of the app purpose and use context, interviewees expressed approval for the app
+                    concept and the convenience it offered. Seniors notes interest in the app relieving them from
+                    remembering appointment details, medication dosage and future appointments themselves, as well as
+                    the added context it provided.</p>
+
+                <figure>
+                    <blockquote>
+                        <p class="quote">“I would really appreciate having something like this hooked into all my health
+                            data. It would be very convenient.”</p>
+                    </blockquote>
+                    <figcaption> -senior usability tester in post-test interview
+                    </figcaption>
+                </figure>
+
+                <h5>Self Judgement</h5>
+                <p>Secondary research often stated that seniors blame themselves for lack of understanding of new
+                    technologies <a href="https://pubmed.ncbi.nlm.nih.gov/30974780/">(1)</a> and this was confirmed in
+                    testing. Despite being told the prototype was a first draft and any issues they had reflected its
+                    lack of finish, not their abilities, they still blamed themselves for lack of technological
+                    literacy. This highlighted the need for seniors to understand the app so they do not feel bad about
+                    themselves during use, which was addressed with an onboarding process explaining main app features.
+                </p>
+
+                <figure>
+                    <blockquote>
+                        <p class="quote">“I’m really hard on myself. I’m not going to say I was splendid. I’m not the
+                            best senior out there but hopefully I’m not the worst.”
+                        </p>
+                    </blockquote>
+                    <figcaption> -senior usability tester explaining percieved performance using prototype
+                    </figcaption>
+                </figure>
+
+            </section>
+
+        </section>
+
+        <section class="section-wrapper bottom-margin">
+            <h2>Final product</h2>
+            <p>HealthConnect was redesigned to address issues found in user testing and keep the interface
+                understandable and accessible to varied audiences. It contains the Health Hub with condition and
+                medication information, and the Appointments log which displays upcoming and past appointments.</p>
+        </section>
+
+        <section class="section-wrapper bottom-padding">
+            <input class="button" type="submit" value="Final product details"
+                onclick="window.location.href='../index.html';">
+            <input class="button" type="submit" value="Try prototype" onclick="window.location.href='#';">
+        </section>
+
+
+    </section> <!-- end of whole content wrapper -->
+
+    <footer>
+        <p>Olivia Steed, Clark Tanquerido and Fathima Tassiban</p>
+        <p>IAT 334 Spring 2023 A3.7</p>
+    </footer>
+
+
+</body>
+
+</html>
