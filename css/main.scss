@@ -81,6 +81,12 @@ body{
         color:$deep-blue;
     }
 
+    .persona-quote{
+        font-weight:500;
+        font-size:1.5rem;
+        color:$deep-blue;
+    }
+
     a{
         font-family: avenir, helvetica, sans-serif;
     }
@@ -117,9 +123,10 @@ body{
         max-width:50rem;
     }
 
-    figcaption{
+    .quote-caption{
         max-width:30rem;
     }
+
 }
 
 header{
@@ -200,4 +207,21 @@ footer{
 
  .bottom-padding{
     padding-bottom:5rem;
+ }
+
+ /* image */
+
+ .persona-img{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    // margin-bottom: 1rem;
+    width: 10rem;
+    border: 1px pink solid;
+}
+
+
+ .persona-caption{
+    flex: 1 1 auto;
+    width:5rem;
  }
