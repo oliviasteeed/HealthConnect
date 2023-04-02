@@ -33,20 +33,19 @@ body{
     h3{
         font-family: avenir, helvetica, sans-serif;
         font-weight: 500;
-        font-size:1.7rem;
+        font-size:2rem;
     }
     
     h4{
         font-family: avenir, helvetica, sans-serif;
         font-weight: 500;
-        font-size:1.3rem;
+        font-size:1.5rem;
     }
     
     h5{
         font-family: avenir, helvetica, sans-serif;
         font-weight: 500;
         font-size:1.2rem;
-
     }
     
     p{
@@ -64,7 +63,7 @@ body{
     }
 
     figcaption{
-        margin-top:0.5rem;
+        margin-top:1rem;
         font-family: avenir, helvetica, sans-serif;
         color:$dark-blue;
         font-size:1rem;
@@ -77,8 +76,9 @@ body{
 
     .quote{
         font-weight:500;
-        font-size:2rem;
+        font-size:1.7rem;
         color:$deep-blue;
+        max-width:30rem;
     }
 
     .persona-quote{
@@ -209,19 +209,3 @@ footer{
     padding-bottom:5rem;
  }
 
- /* image */
-
- .persona-img{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    // margin-bottom: 1rem;
-    width: 10rem;
-    border: 1px pink solid;
-}
-
-
- .persona-caption{
-    flex: 1 1 auto;
-    width:5rem;
- }

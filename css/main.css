@@ -20,12 +20,12 @@ body h2 {
 body h3 {
   font-family: avenir, helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 body h4 {
   font-family: avenir, helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 body h5 {
   font-family: avenir, helvetica, sans-serif;
@@ -45,7 +45,7 @@ body p a:hover, body p a:active, body p a:focus, body p a:visited {
   color: #3478F6;
 }
 body figcaption {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   font-family: avenir, helvetica, sans-serif;
   color: #5E5E9B;
   font-size: 1rem;
@@ -56,8 +56,9 @@ body figcaption a:hover, body figcaption a:active, body figcaption a:focus, body
 }
 body .quote {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #252550;
+  max-width: 30rem;
 }
 body .persona-quote {
   font-weight: 500;
@@ -165,27 +166,4 @@ footer p {
 
 .bottom-padding {
   padding-bottom: 5rem;
-}
-
-/* image */
-.persona-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 10rem;
-  border: 1px pink solid;
-}
-
-.persona-caption {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  width: 5rem;
 }

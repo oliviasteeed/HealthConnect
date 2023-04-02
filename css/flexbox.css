@@ -55,6 +55,54 @@
           justify-content: right;
 }
 
+/* persona info */
+.persona-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 10rem;
+}
+
+.persona-caption {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  width: 5rem;
+}
+
+.persona-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.persona-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* images */
 .image-wrapper {
   display: -webkit-box;
@@ -68,7 +116,6 @@
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 3rem;
-  border: 1px blue solid;
 }
 
 .multiple-image-wrapper {
@@ -82,7 +129,6 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-bottom: 3rem;
-  border: 1px blue solid;
 }
 
 .image-caption {
@@ -101,9 +147,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 1rem;
     width: 80vw;
-    border: 1px pink solid;
+  }
+  .image-caption-box img {
+    width: 80vw;
   }
   .gif-caption-box {
     display: -webkit-box;
@@ -130,7 +181,6 @@
             flex-direction: column;
     margin-bottom: 1rem;
     width: 17vw;
-    border: red 1px solid;
   }
   .multiple-gif-border {
     border-radius: 20px;
@@ -174,7 +224,6 @@
             flex-direction: column;
     margin-bottom: 1rem;
     width: 20vw;
-    border: pink 1px solid;
   }
   .multiple-gif-border {
     border-radius: 30px;
