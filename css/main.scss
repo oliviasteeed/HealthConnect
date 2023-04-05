@@ -39,8 +39,9 @@ body{
     
     h4{
         font-family: avenir, helvetica, sans-serif;
-        font-weight: 500;
+        font-weight: 700;
         font-size:1.5rem;
+        color:$dark-blue;
     }
     
     h5{
@@ -51,9 +52,9 @@ body{
     
     p{
         font-family: avenir, helvetica, sans-serif;
-        color:$dark-blue;
+        color:$deep-blue;
         font-size:1rem;
-        // max-width:600px;
+        max-width:650px;
         padding:0;
         margin:0;
         line-height:180%;
@@ -92,8 +93,9 @@ body{
 
     .quote{
         font-weight:500;
-        font-size:1.7rem;
+        font-size:1.5rem;
         color:$deep-blue;
+        font-style:italic;
         // max-width:30rem;
     }
 
@@ -131,8 +133,8 @@ body{
     }
 
     figure{
-        margin-top:4rem;
-        margin-bottom:4rem;
+        // margin-top:4rem;
+        // margin-bottom:4rem;
     }
 
     blockquote{
@@ -215,6 +217,10 @@ footer{
     margin-top:1rem;
     margin-bottom:1rem;
     // border: orange 1px solid;
+ }
+
+ .bottom-margin-small{
+    margin-bottom:2rem;
  }
 
  .bottom-margin{

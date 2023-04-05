@@ -32,24 +32,10 @@
 
 /* persona info */
 
-.persona-img{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    // margin-bottom: 1rem;
-    width: 10rem;
-    // border: 1px pink solid;
-}
-
  .persona-caption{
     flex: 1 1 auto;
     width:5rem;
  }
-
-.persona-container {
-    display: flex;
-    flex-direction: row;
-}
 
 .persona-content {
     display: flex;
@@ -57,6 +43,36 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (min-width:800px){
+    .persona-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .persona-img{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .persona-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .persona-img{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 18rem;
+    }
+}
+
+
 
 .feature-wrapper {
     display: flex;
@@ -78,21 +94,23 @@
     justify-content:center;
 }
 
-@media screen and (max-width:800px){
-    .content-box {
+@media screen and (max-width:900px){
+
+    .content-inner-box{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        border: pink 1px solid;
+        margin-left:1rem;
+        margin-right:1rem;
     }
 }
 
-@media screen and (min-width:800px){
-    .content-box {
+@media screen and (min-width:900px){
+
+    .content-inner-box{
         display: flex;
         flex-direction: row;
-        align-items: stretch;
-        border: pink 1px solid;
+        margin-left:1rem;
+        margin-right:1rem;
     }
 }
 
@@ -100,16 +118,15 @@
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
-    border: cyan 1px solid;
-    min-width:15rem;
-    min-height:20rem;
-    padding:2rem;
+    // border: cyan 1px solid;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    margin:1rem;
+
 }
 
-.content-inner-box{
-    display: flex;
-    flex-direction: column;
-}
 
 
 
