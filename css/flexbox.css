@@ -79,7 +79,7 @@
           align-items: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1098px) {
   .persona-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -103,7 +103,7 @@
     width: 12rem;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1098px) {
   .persona-container {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -10,6 +10,8 @@ body h1 {
   font-weight: 900;
   font-size: 3.5rem;
   padding: 0;
+  margin: 0;
+  margin-top: 2rem;
 }
 body h2 {
   font-family: avenir, helvetica, sans-serif;
@@ -63,8 +65,9 @@ body .quote {
 }
 body .persona-quote {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #252550;
+  font-style: italic;
 }
 body a {
   font-family: avenir, helvetica, sans-serif;
@@ -198,10 +201,10 @@ footer p {
 /* used this as reference https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
 .dropbtn {
   font-family: avenir, helvetica, sans-serif;
-  font-weight: 900;
+  font-weight: 500;
   background-color: #F2F2F6;
-  color: #3478F6;
-  font-size: 1.5rem;
+  color: #252550;
+  font-size: 1rem;
   border-radius: 0.5rem;
   padding: 1rem;
   border: none;

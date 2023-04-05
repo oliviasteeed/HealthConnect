@@ -22,6 +22,8 @@ body{
         font-weight: 900;
         font-size:3.5rem;
         padding:0;
+        margin:0;
+        margin-top:2rem;
         // margin-bottom:1rem;
     }
     
@@ -87,8 +89,9 @@ body{
 
     .persona-quote{
         font-weight:500;
-        font-size:1.5rem;
+        font-size:1.3rem;
         color:$deep-blue;
+        font-style:italic;
     }
 
     a{
@@ -258,10 +261,10 @@ footer{
 
  .dropbtn {
     font-family: avenir, helvetica, sans-serif;
-    font-weight:900;
+    font-weight:500;
     background-color: $tint-blue;
-    color: $accent-blue;
-    font-size: 1.5rem;
+    color: $deep-blue;
+    font-size: 1rem;
     border-radius: 0.5rem;
     padding:1rem;
     border: none;
