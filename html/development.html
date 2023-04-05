@@ -32,93 +32,137 @@
         <section class="section-wrapper bottom-margin"> <!-- Landing Page-->
             <h1>Developing HealthConnect</h1>
             <p>From research to concept to product</p>
-            <!-- <input class="button" type="submit" value="About the app" onclick="window.location.href='../index.html';"> -->
+
+            <div class="dropdown">
+                <button class="dropbtn">Select Section</button>
+                <div class="dropdown-content">
+                    <a href="#user-research">User Research</a>
+                    <a href="#concept-development">Concept Development</a>
+                    <a href="#interface-development">Interface Development</a>
+                    <a href="#user-testing">User Testing</a>
+                    <a href="#final-product">Final Product</a>
+                </div>
+            </div>
+
         </section>
 
-        <section class="bottom-margin"> <!-- Research -->
-            <section class="section-wrapper">
-                <h2>Beginning with understanding</h2>
-                <p>HealthConnect’s development began by interviewing seniors above the age of 75 that lived independent
-                    of
-                    external care to understand opinions and relationships with technology. The team sought to
-                    understand
-                    and empathize with the intended users of the app with a desire to help.
-                </p>
-            </section>
+        <section id="user-research" class="bottom-margin"> <!-- Research -->
+            <h2>Beginning with understanding</h2>
+            <p>HealthConnect’s development began by interviewing seniors above the age of 75 that lived independent
+                of
+                external care to understand opinions and relationships with technology. The team sought to
+                understand
+                and empathize with the intended users of the app with a desire to help.
+            </p>
 
-            <section class="section-wrapper">
+            <section class="section-wrapper"> <!-- Challenges -->
                 <h3>Identifying challenges</h3>
                 <p>Interviews centered around challenges in seniors’ lives and technology usage. We found challenges
                     could be grouped into categories of physical and accessibility and technology use and understanding.
                 </p>
+
+                <div class="content-box">
+                    <div class="content-box-item  light-tan-bg">
+                        <h4>Physical challenges</h4>
+                        <p>All interviewees had chronic health conditions that impaired physical capabilities in varying
+                            degrees. This was important, as it suggested that seniors frequently are thinking about
+                            their health
+                            due to conditions.</p>
+
+                        <!-- <figure>
+                            <blockquote>
+                                <p class="quote">“Everyday tasks like bed making, laundry, mopping or sweeping a floor are
+                                    challenging. Osteoarthritis in my hands can make food prep difficult.”</p>
+                            </blockquote>
+                            <figcaption class="quote-caption"> -senior we interviewed explaining how health challenges impact
+                                daily life activities
+                            </figcaption>
+                        </figure> -->
+                    </div>
+
+
+
+                    <div class="content-box-item light-tan-bg">
+                        <h4>Mental challenges</h4>
+                        <p>Interviewees noted experiencing brain fog and reduced cognitive clarity which led to issues
+                            remembering information, especially what tasks they had completed.</p>
+                    </div>
+
+                    <div class="content-box-item light-tan-bg">
+                        <h4>Technology challenges</h4>
+                        <p>All interviewees reported their devices as positive additions to their lives, but many
+                            mentioned
+                            difficulties using technology due to a lack of accessible explanation or physical
+                            accessibility
+                            constraints.</p>
+
+                        <!-- <figure>
+                            <blockquote>
+                                <p class="quote">“It scares me [be]cause I can’t figure out how it works. I would like to use it
+                                    more.”</p>
+                            </blockquote>
+                            <figcaption class="quote-caption"> -senior we interviewed explaining conflicting attitudes on
+                                technology
+                            </figcaption>
+                        </figure> -->
+
+                    </div>
+
+
+                </div>
+
             </section>
 
-            <section class="section-wrapper">
-                <h4>Physical challenges</h4>
-                <p>All interviewees had chronic health conditions that impaired physical capabilities in varying
-                    degrees. This was important, as it suggested that seniors frequently are thinking about their health
-                    due to conditions.</p>
-
-                <figure>
-                    <blockquote>
-                        <p class="quote">“Everyday tasks like bed making, laundry, mopping or sweeping a floor are
-                            challenging. Osteoarthritis in my hands can make food prep difficult.”</p>
-                    </blockquote>
-                    <figcaption class="quote-caption"> -senior we interviewed explaining how health challenges impact
-                        daily life activities
-                    </figcaption>
-                </figure>
-            </section>
-
-            <section class="section-wrapper">
-                <h4>Mental challenges</h4>
-                <p>Interviewees noted experiencing brain fog and reduced cognitive clarity which led to issues
-                    remembering information, especially what tasks they had completed.</p>
-            </section>
-
-            <section class="section-wrapper">
-                <h4>Technology challenges</h4>
-                <p>All interviewees reported their devices as positive additions to their lives, but many mentioned
-                    difficulties using technology due to a lack of accessible explanation or physical accessibility
-                    constraints.</p>
-
-                <figure>
-                    <blockquote>
-                        <p class="quote">“It scares me [be]cause I can’t figure out how it works. I would like to use it
-                            more.”</p>
-                    </blockquote>
-                    <figcaption class="quote-caption"> -senior we interviewed explaining conflicting attitudes on
-                        technology
-                    </figcaption>
-                </figure>
-            </section>
-
-            <section class="section-wrapper">
+            <section class="section-wrapper"> <!-- Goals -->
                 <h3>Identifying goals</h3>
                 <p>In interviews, seniors were asked about goals of technology use, and general goals. We compared
                     responses to find commonalities among interviewees which were often health related.
                 </p>
+
+                <div class="content-box">
+                    <div class="content-inner-box">
+                        <div class="content-box-item tint-blue-bg">
+                            <h4>Health Goals</h4>
+                        </div>
+
+                        <div class="content-box-item light-tan-bg">
+                            <h4>Remaining Independent</h4>
+                            <p>Seniors interviewed demonstrated the desire to remain functional and independent despite
+                                health concerns, and were motivated to engage in health-promoting activities.</p>
+                        </div>
+
+                        <div class="content-box-item light-tan-bg">
+                            <h4>Multi-condition Management</h4>
+                            <p>Interviewees noted health concerns as the biggest challenges in their day to day lives,
+                                and shared that they dealt with multiple chronic health conditions with their own
+                                medications and care activities.</p>
+                        </div>
+                    </div>
+
+                    <div class="content-inner-box">
+                        <div class="content-box-item tint-blue-bg">
+                            <h4>Technology Goals</h4>
+                        </div>
+
+                        <div class="content-box-item light-tan-bg">
+                            <h4>Information and Education</h4>
+                            <p>Seniors used technology to obtain new information as they reported lacking exposure to
+                                many others, so depended on the internet. Interviewees also noted anxiety over trusting
+                                online information and struggles deducing what is reputable.</p>
+                        </div>
+
+                        <div class="content-box-item light-tan-bg">
+                            <h4>Health Tracking</h4>
+                            <p>Many interviewees were already comfortable integrating technology into their healthcare
+                                activities and cited health tracking apps as their most used.</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
 
-            <section class="section-wrapper">
-                <h4>Health goals</h4>
-                <p>Seniors interviewed demonstrated the desire to remain functional and independent despite health
-                    concerns, and were motivated to engage in health-promoting activities.
-                </p>
-            </section>
 
-            <section class="section-wrapper">
-                <h4>Technology goals</h4>
-
-                <h5>Information and education</h5>
-                <p>Seniors used technology to obtain new information as they reported lacking exposure to many others,
-                    so depended on the internet. Interviewees also noted anxiety over trusting online information and
-                    struggles deducing what is reputable.
-
-                <h5>Health management</h5>
-                <p>Many interviewees were already comfortable integrating technology into their healthcare activities
-                    and cited health tracking apps as their most used.</p>
-            </section>
 
             <section class="section-wrapper">
                 <h4>Persona creation</h4>
@@ -127,7 +171,7 @@
                     development.</p>
 
 
-                <div class="persona-container">
+                <div class="persona-container tint-blue-bg">
                     <div class="persona-content">
                         <figure class="persona-img">
                             <img src="../img/marilou-2x.png" srcset="../img/marilou-1x.png 1x, ../img/marilou-2x.png 2x"
@@ -155,7 +199,7 @@
 
                 </div>
 
-                <div class="persona-container">
+                <div class="persona-container tint-blue-bg">
                     <div class="persona-content">
                         <figure class="persona-img">
                             <img src="../img/emerson-2x.png" srcset="../img/emerson-1x.png 1x, ../img/emerson-2x.png 2x"
@@ -187,7 +231,7 @@
         </section>
 
 
-        <section class="bottom-margin"> <!-- Concept -->
+        <section id="concept-development" class="bottom-margin"> <!-- Concept -->
             <section class="section-wrapper">
                 <h2>Concept development</h2>
                 <p>Our secondary research confirmed that seniors feel empowered when they can manage their health
@@ -208,7 +252,8 @@
 
             <div class="image-wrapper">
                 <figure class="image-caption-box">
-                    <img src="../img/scenario-2x.png" srcset="../img/scenario-1x.png 1x, ../img/scenario-2x.png 2x" alt="">
+                    <img src="../img/scenario-2x.png" srcset="../img/scenario-1x.png 1x, ../img/scenario-2x.png 2x"
+                        alt="">
                     <figcaption class="image-caption">Initial usage scenario illustrating app value</figcaption>
                 </figure>
             </div>
@@ -240,20 +285,12 @@
             </section>
 
             <section class="section-wrapper">
-                <h3>Dual path login</h3>
-                <p>Through mapping the features and creating user flows and wireframes of app usage, we realized the
-                    need for manual data input was also important if users do not or cannot connect the app to their
-                    official health records. This led to two account creation options that allow automatic health data
-                    connection or manual input. </p>
+                <h3>Mapping activities</h3>
+                <p>After the principal functions were formalized we created final user flows to document the main
+                    functions and guide the creation of interface elements and an interactive prototype.</p>
             </section>
 
             <div class="image-wrapper">
-                <figure class="image-caption-box">
-                    <img src="../img/app-split-2x.png" srcset="../img/app-split-1x.png 1x, ../img/app-split-2x.png 2x"
-                        alt="">
-                    <figcaption class="image-caption">App login split user flow</figcaption>
-                </figure>
-
                 <figure class="image-caption-box">
                     <img src="../img/appts-flow-2x.png"
                         srcset="../img/appts-flow-1x.png 1x, ../img/appts-flow-2x.png 2x" alt="">
@@ -267,7 +304,7 @@
             </div>
         </section>
 
-        <section class="bottom-margin"> <!-- Interface -->
+        <section id="interface-development" class="bottom-margin"> <!-- Interface -->
             <section class="section-wrapper">
                 <h2>Interface development</h2>
                 <p>Once we converged on a concept to pursue, we explored several interface options to find what
@@ -285,8 +322,8 @@
 
             <div class="image-wrapper">
                 <figure class="image-caption-box">
-                    <img src="../img/initialinterface-2x.png"
-                        srcset="../img/initialinterface-1x.png 1x, ../img/initialinterface-2x.png 2x" alt="">
+                    <img src="../img/initial-mocks-2x.png"
+                        srcset="../img/initial-mocks-1x.png 1x, ../img/initial-mocks-2x.png 2x" alt="">
                     <figcaption class="image-caption">Initial interface concepts</figcaption>
                 </figure>
             </div>
@@ -302,8 +339,8 @@
 
             <div class="image-wrapper">
                 <figure class="image-caption-box">
-                    <img src="../img/initialrefined-2x.png"
-                        srcset="../img/initialrefined-1x.png 1x, ../img/initialrefined-2x.png 2x" alt="">
+                    <img src="../img/refined-initial-mocks-2x.png"
+                        srcset="../img/refined-initial-mocks-1x.png 1x, ../img/refined-initial-mocks-2x.png 2x" alt="">
                     <figcaption class="image-caption">Refined initial interface</figcaption>
                 </figure>
             </div>
@@ -313,7 +350,7 @@
 
         </section>
 
-        <section class="bottom-margin"> <!-- User Testing -->
+        <section id="user-testing" class="bottom-margin"> <!-- User Testing -->
             <section class="section-wrapper">
                 <h2>User testing</h2>
                 <p>The interactive prototype was tested by 5 people varying in ages from 20 to 78 on a variety of common
@@ -322,15 +359,18 @@
                     targets based on Nielsen’s 5 components of usability <a
                         href="https://www.nngroup.com/articles/usability-101-introduction-to-usability/">(3)</a> and
                     content testing to see if the app
-                    appealed to people and would be used.</p>
+                    appealed to people and would be used. Testing results revealed that many tasks were difficult and
+                    unnatural to users, and that the purpose
+                    of the app was unclear, leading to lack of interest. These were important insights that would have
+                    gone unnoticed without testing.</p>
             </section>
-
+            <!-- 
             <section class="section-wrapper">
                 <h3>Testing results</h3>
                 <p>Testing results revealed that many tasks were difficult and unnatural to users, and that the purpose
                     of the app was unclear, leading to lack of interest. These were important insights that would have
                     gone unnoticed without testing.</p>
-            </section>
+            </section> -->
 
             <div class="image-wrapper">
                 <figure class="image-caption-box">
@@ -342,12 +382,76 @@
             </div>
 
             <section class="section-wrapper">
+                <h4>User Insights</h4>
+                <p>In addition to usability findings, interviews helped us understand the mental models and
+                    attitudes of
+                    potential users. This allowed us to confirm the validity of the app, and focus on what was
+                    important
+                    to keep and improve.</p>
+
                 <section class="section-wrapper">
-                    <h4>Usability insights</h4>
+                    <h5>Positive reception</h5>
+                    <p>After explanation of the app purpose and use context, interviewees expressed approval for the
+                        app
+                        concept and the convenience it offered. Seniors notes interest in the app relieving them
+                        from
+                        remembering appointment details, medication dosage and future appointments themselves, as
+                        well
+                        as
+                        the added context it provided.</p>
+
+
+                    <figure>
+                        <blockquote>
+                            <p class="quote">“I would really appreciate having something like this hooked into all
+                                my
+                                health
+                                data. It would be very convenient.”</p>
+                        </blockquote>
+                        <figcaption class="quote-caption"> -senior usability tester in post-test interview
+                        </figcaption>
+                    </figure>
+                </section>
+
+
+                <section class="section-wrapper">
+                    <h5>Self Judgement</h5>
+                    <p>Secondary research often stated that seniors blame themselves for lack of understanding of
+                        new
+                        technologies <a href="https://pubmed.ncbi.nlm.nih.gov/30974780/">(1)</a> and this was
+                        confirmed
+                        in
+                        testing. Despite being told the prototype was a first draft and any issues they had
+                        reflected
+                        its
+                        lack of finish, not their abilities, they still blamed themselves for lack of technological
+                        literacy. This highlighted the need for seniors to understand the app so they do not feel
+                        bad
+                        about
+                        themselves during use, which was addressed with an onboarding process explaining main app
+                        features.
+                    </p>
+
+                    <figure>
+                        <blockquote>
+                            <p class="quote">“I’m really hard on myself. I’m not going to say I was splendid. I’m
+                                not
+                                the
+                                best senior out there but hopefully I’m not the worst.”
+                            </p>
+                        </blockquote>
+                        <figcaption class="quote-caption"> -senior usability tester explaining percieved performance
+                            using prototype
+                        </figcaption>
+                    </figure>
+                </section>
+            </section>
+
+            <section class="section-wrapper">
+                    <h4>Addressing Usability Opportunities</h4>
                     <p>The usability testing and interview transcripts were condensed into four key insights that
                         informed a
                         redesign and reconceptualization of HealthConnect.</p>
-                </section>
 
                 <section class="section-wrapper">
                     <h5>Revealing options</h5>
@@ -362,7 +466,8 @@
                     <figure class="image-caption-box">
                         <img src="../img/reveal-2x.png" srcset="../img/reveal-1x.png 1x, ../img/reveal-2x.png 2x"
                             alt="">
-                        <figcaption class="image-caption">Interface edits addressing navigational issues</figcaption>
+                        <figcaption class="image-caption">Interface edits using toggle to address navigational issues
+                        </figcaption>
                     </figure>
                 </div>
 
@@ -411,74 +516,14 @@
                         </figcaption>
                     </figure>
                 </div>
+
+                <section class="section-wrapper">
+                    <h5>Step-by-Step Onboarding</h5>
+                    <p>A step-by-step walkthrough of main features serves as an onboarding process to help new users understand the functions of the app without becoming confused or overwhelmed. Secondary research confirmed that the main factor impeding seniors’ technology use is the lack of clear explanations tailored to them. <a href="https://pubmed.ncbi.nlm.nih.gov/30974780/">(1)</a> Considering the self-blaming discovered in research and user testing, ensuring app understanding through an accessible onboarding process was crutial to build app understanding.</p>
+                </section>
+
             </section>
 
-            <section>
-                <section class="section-wrapper">
-                    <h4>Additional insights</h4>
-                    <p>In addition to usability findings, interviews helped us understand the mental models and
-                        attitudes of
-                        potential users. This allowed us to confirm the validity of the app, and focus on what was
-                        important
-                        to keep and improve.</p>
-                </section>
-
-                <section class="section-wrapper">
-                    <h5>Revealing options</h5>
-                    <p>Participants struggled to use app functions hidden by navigation, as older testers especially did
-                        not
-                        explore the interface independently. This would lead users to not use all app features. We
-                        addressed
-                        this by making options visible without additional interaction.</p>
-                </section>
-
-                <section class="section-wrapper">
-                    <h5>Positive reception</h5>
-                    <p>After explanation of the app purpose and use context, interviewees expressed approval for the app
-                        concept and the convenience it offered. Seniors notes interest in the app relieving them from
-                        remembering appointment details, medication dosage and future appointments themselves, as well
-                        as
-                        the added context it provided.</p>
-
-
-                    <figure>
-                        <blockquote>
-                            <p class="quote">“I would really appreciate having something like this hooked into all my
-                                health
-                                data. It would be very convenient.”</p>
-                        </blockquote>
-                        <figcaption class="quote-caption"> -senior usability tester in post-test interview
-                        </figcaption>
-                    </figure>
-                </section>
-
-                <section class="section-wrapper">
-                    <h5>Self Judgement</h5>
-                    <p>Secondary research often stated that seniors blame themselves for lack of understanding of new
-                        technologies <a href="https://pubmed.ncbi.nlm.nih.gov/30974780/">(1)</a> and this was confirmed
-                        in
-                        testing. Despite being told the prototype was a first draft and any issues they had reflected
-                        its
-                        lack of finish, not their abilities, they still blamed themselves for lack of technological
-                        literacy. This highlighted the need for seniors to understand the app so they do not feel bad
-                        about
-                        themselves during use, which was addressed with an onboarding process explaining main app
-                        features.
-                    </p>
-
-                    <figure>
-                        <blockquote>
-                            <p class="quote">“I’m really hard on myself. I’m not going to say I was splendid. I’m not
-                                the
-                                best senior out there but hopefully I’m not the worst.”
-                            </p>
-                        </blockquote>
-                        <figcaption class="quote-caption"> -senior usability tester explaining percieved performance
-                            using prototype
-                        </figcaption>
-                    </figure>
-                </section>
-            </section>
 
             <div class="image-wrapper">
                 <figure class="image-caption-box">
@@ -498,7 +543,7 @@
         </section>
 
 
-        <section class="section-wrapper bottom-margin">
+        <section id="final-product" class="section-wrapper bottom-margin"> <!-- Final Product-->
             <h2>Final product</h2>
             <p>HealthConnect was redesigned to address issues found in user testing and keep the interface
                 understandable and accessible to varied audiences. It contains the Health Hub with condition and

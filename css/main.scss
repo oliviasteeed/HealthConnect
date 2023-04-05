@@ -1,3 +1,4 @@
+$light-tan: #F5F4F0;
 $off-white: #FCFAF7;
 $tint-blue: #F2F2F6;
 $light-blue: #B2B2CB;
@@ -21,7 +22,7 @@ body{
         font-weight: 900;
         font-size:3.5rem;
         padding:0;
-        margin-bottom:1rem;
+        // margin-bottom:1rem;
     }
     
     h2{
@@ -52,14 +53,29 @@ body{
         font-family: avenir, helvetica, sans-serif;
         color:$dark-blue;
         font-size:1rem;
-        max-width:600px;
+        // max-width:600px;
         padding:0;
         margin:0;
+        line-height:180%;
+        margin-top:1rem;
 
         a:hover, a:active, a:focus, a:visited{
             font-family: avenir, helvetica, sans-serif;
             color:$accent-blue;
         }
+    }
+    
+    ul{
+        font-family: avenir, helvetica, sans-serif;
+        color:$dark-blue;
+        font-size:1rem;
+        padding-left:1.5rem;
+        margin-top:1rem;
+        line-height:200%;
+    }
+
+    .standout-p{
+        font-size:1.5rem;
     }
 
     figcaption{
@@ -78,7 +94,7 @@ body{
         font-weight:500;
         font-size:1.7rem;
         color:$deep-blue;
-        max-width:30rem;
+        // max-width:30rem;
     }
 
     .persona-quote{
@@ -120,11 +136,11 @@ body{
     }
 
     blockquote{
-        max-width:50rem;
+        // max-width:70rem;
     }
 
     .quote-caption{
-        max-width:30rem;
+        // max-width:30rem;
     }
 
 }
@@ -209,3 +225,58 @@ footer{
     padding-bottom:5rem;
  }
 
+ /* dropdown */
+/* used this as reference https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+
+ .dropbtn {
+    font-family: avenir, helvetica, sans-serif;
+    font-weight:900;
+    background-color: $tint-blue;
+    color: $accent-blue;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding:1rem;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .dropdown-content a {
+    color: $deep-blue;
+    font-size: 1rem;
+    padding:1rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: $tint-blue;}
+
+  /* background colour */
+
+  .tint-blue-bg{
+    background-color:$tint-blue;
+    border-radius:30px;
+  }
+
+  .light-tan-bg{
+    background-color:$light-tan;
+    border-radius:30px;
+  }

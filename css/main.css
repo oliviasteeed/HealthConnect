@@ -10,7 +10,6 @@ body h1 {
   font-weight: 900;
   font-size: 3.5rem;
   padding: 0;
-  margin-bottom: 1rem;
 }
 body h2 {
   font-family: avenir, helvetica, sans-serif;
@@ -36,13 +35,25 @@ body p {
   font-family: avenir, helvetica, sans-serif;
   color: #5E5E9B;
   font-size: 1rem;
-  max-width: 600px;
   padding: 0;
   margin: 0;
+  line-height: 180%;
+  margin-top: 1rem;
 }
 body p a:hover, body p a:active, body p a:focus, body p a:visited {
   font-family: avenir, helvetica, sans-serif;
   color: #3478F6;
+}
+body ul {
+  font-family: avenir, helvetica, sans-serif;
+  color: #5E5E9B;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  line-height: 200%;
+}
+body .standout-p {
+  font-size: 1.5rem;
 }
 body figcaption {
   margin-top: 1rem;
@@ -58,7 +69,6 @@ body .quote {
   font-weight: 500;
   font-size: 1.7rem;
   color: #252550;
-  max-width: 30rem;
 }
 body .persona-quote {
   font-weight: 500;
@@ -92,13 +102,6 @@ body figure {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-body blockquote {
-  max-width: 50rem;
-}
-body .quote-caption {
-  max-width: 30rem;
-}
-
 header {
   color: #FCFAF7;
   background-color: #252550;
@@ -166,4 +169,65 @@ footer p {
 
 .bottom-padding {
   padding-bottom: 5rem;
+}
+
+/* dropdown */
+/* used this as reference https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+.dropbtn {
+  font-family: avenir, helvetica, sans-serif;
+  font-weight: 900;
+  background-color: #F2F2F6;
+  color: #3478F6;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.dropdown-content a {
+  color: #252550;
+  font-size: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #F2F2F6;
+}
+
+/* background colour */
+.tint-blue-bg {
+  background-color: #F2F2F6;
+  border-radius: 30px;
+}
+
+.light-tan-bg {
+  background-color: #F5F4F0;
+  border-radius: 30px;
 }
