@@ -23,7 +23,7 @@ body{
         font-size:3.5rem;
         padding:0;
         margin:0;
-        margin-top:2rem;
+        margin-top:3rem;
         // margin-bottom:1rem;
     }
     
@@ -51,7 +51,22 @@ body{
         font-weight: 500;
         font-size:1.2rem;
     }
-    
+
+    p{
+        font-family: avenir, helvetica, sans-serif;
+        color:$deep-blue;
+        font-size:1rem;
+        max-width:800px;
+        padding:0;
+        margin:0;
+        line-height:180%;
+        margin-top:1rem;
+
+        a:hover, a:active, a:focus, a:visited{
+            font-family: avenir, helvetica, sans-serif;
+            color:$accent-blue;
+        }
+    }
     
     ul{
         font-family: avenir, helvetica, sans-serif;
@@ -63,7 +78,7 @@ body{
     }
 
     .standout-p{
-        font-size:1.5rem;
+        font-size:1.3rem;
     }
 
     figcaption{
@@ -87,11 +102,35 @@ body{
         max-width:600px;
     }
 
+    .no-spacing{
+        margin:0;
+        padding:0;
+    }
+
+    .smaller-quote-spacing{
+        margin:1rem;
+        padding:0;
+    }
+
+    .small-quote{
+            font-size:1.2rem;
+            font-weight:500;
+            color:$deep-blue;
+            font-style:italic;
+    }
+
     .persona-quote{
         font-weight:500;
         font-size:1.3rem;
         color:$deep-blue;
         font-style:italic;
+    }
+
+    .interactive-text{
+        font-family: avenir, helvetica, sans-serif;
+        font-size:1rem;
+        color:$accent-blue;
+        font-weight:800;
     }
 
     a{
@@ -134,42 +173,6 @@ body{
         // max-width:30rem;
     }
 
-}
-
-@media screen and (max-width:1200px){
-    p{
-        font-family: avenir, helvetica, sans-serif;
-        color:$deep-blue;
-        font-size:1rem;
-        max-width:600px;
-        padding:0;
-        margin:0;
-        line-height:180%;
-        margin-top:1rem;
-
-        a:hover, a:active, a:focus, a:visited{
-            font-family: avenir, helvetica, sans-serif;
-            color:$accent-blue;
-        }
-    }
-}
-
-@media screen and (min-width:1200px){
-    p{
-        font-family: avenir, helvetica, sans-serif;
-        color:$deep-blue;
-        font-size:1rem;
-        max-width:900px;
-        padding:0;
-        margin:0;
-        line-height:180%;
-        margin-top:1rem;
-
-        a:hover, a:active, a:focus, a:visited{
-            font-family: avenir, helvetica, sans-serif;
-            color:$accent-blue;
-        }
-    }
 }
 
 header{
@@ -244,6 +247,13 @@ footer{
     // border: orange 1px solid;
  }
 
+ .inner-section-wrapper{
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-top:1rem;
+    margin-bottom:1rem;
+ }
+
  .bottom-margin-small{
     margin-bottom:2rem;
  }
@@ -261,9 +271,9 @@ footer{
 
  .dropbtn {
     font-family: avenir, helvetica, sans-serif;
-    font-weight:500;
+    font-weight:800;
     background-color: $tint-blue;
-    color: $deep-blue;
+    color: $accent-blue;
     font-size: 1rem;
     border-radius: 0.5rem;
     padding:1rem;
@@ -288,6 +298,7 @@ footer{
   
   .dropdown-content a {
     color: $deep-blue;
+    font-weight:500;
     font-size: 1rem;
     padding:1rem;
     text-decoration: none;
@@ -305,13 +316,25 @@ footer{
   .tint-blue-bg{
     background-color:$tint-blue;
     border-radius:30px;
+    padding:1rem;
+    margin: 1rem;
+    margin-bottom:2rem;
   }
 
   .light-tan-bg{
     background-color:$light-tan;
     border-radius:30px;
+    padding:1rem;
+    margin: 1rem;
+    margin-bottom:2rem;
   }
 
   .landing-wrapper{
-    height:100vh;
+    height:80vh;
   }
+
+  /* max size cover image */
+.cover-image{
+    max-height:500px;
+    max-width:915px;
+}
