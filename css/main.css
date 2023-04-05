@@ -19,7 +19,7 @@ body h2 {
 body h3 {
   font-family: avenir, helvetica, sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 body h4 {
   font-family: avenir, helvetica, sans-serif;
@@ -32,23 +32,9 @@ body h5 {
   font-weight: 500;
   font-size: 1.2rem;
 }
-body p {
-  font-family: avenir, helvetica, sans-serif;
-  color: #252550;
-  font-size: 1rem;
-  max-width: 650px;
-  padding: 0;
-  margin: 0;
-  line-height: 180%;
-  margin-top: 1rem;
-}
-body p a:hover, body p a:active, body p a:focus, body p a:visited {
-  font-family: avenir, helvetica, sans-serif;
-  color: #3478F6;
-}
 body ul {
   font-family: avenir, helvetica, sans-serif;
-  color: #5E5E9B;
+  color: #252550;
   font-size: 1rem;
   padding-left: 1.5rem;
   margin-top: 1rem;
@@ -62,6 +48,7 @@ body figcaption {
   font-family: avenir, helvetica, sans-serif;
   color: #5E5E9B;
   font-size: 1rem;
+  max-width: 500px;
 }
 body figcaption a:hover, body figcaption a:active, body figcaption a:focus, body figcaption a:visited {
   font-family: avenir, helvetica, sans-serif;
@@ -69,9 +56,10 @@ body figcaption a:hover, body figcaption a:active, body figcaption a:focus, body
 }
 body .quote {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #252550;
   font-style: italic;
+  max-width: 600px;
 }
 body .persona-quote {
   font-weight: 500;
@@ -100,6 +88,38 @@ body .button {
 }
 body .button:focus, body .button:hover, body .button:active {
   background-color: #FCFAF7;
+}
+@media screen and (max-width: 1200px) {
+  p {
+    font-family: avenir, helvetica, sans-serif;
+    color: #252550;
+    font-size: 1rem;
+    max-width: 600px;
+    padding: 0;
+    margin: 0;
+    line-height: 180%;
+    margin-top: 1rem;
+  }
+  p a:hover, p a:active, p a:focus, p a:visited {
+    font-family: avenir, helvetica, sans-serif;
+    color: #3478F6;
+  }
+}
+@media screen and (min-width: 1200px) {
+  p {
+    font-family: avenir, helvetica, sans-serif;
+    color: #252550;
+    font-size: 1rem;
+    max-width: 900px;
+    padding: 0;
+    margin: 0;
+    line-height: 180%;
+    margin-top: 1rem;
+  }
+  p a:hover, p a:active, p a:focus, p a:visited {
+    font-family: avenir, helvetica, sans-serif;
+    color: #3478F6;
+  }
 }
 header {
   color: #FCFAF7;
@@ -233,4 +253,8 @@ footer p {
 .light-tan-bg {
   background-color: #F5F4F0;
   border-radius: 30px;
+}
+
+.landing-wrapper {
+  height: 100vh;
 }

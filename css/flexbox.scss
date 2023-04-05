@@ -72,25 +72,33 @@
     }
 }
 
-
+/* feature description/ findings boxes */
 
 .feature-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: red 1px solid;
+    // border: red 1px solid;
 }
 
 .feature-container{
     display: flex;
     flex-direction: row;
-    border: green 1px solid;
+    // border: green 1px solid;
 }
 
 .feature-item{
     display: flex;
     flex-direction: column;
-    border: orange 1px solid;
+    // border: orange 1px solid;
+    justify-content:center;
+}
+
+.feature-item-text{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    padding-right:2rem;
     justify-content:center;
 }
 
@@ -127,6 +135,45 @@
 
 }
 
+/* scenario images/boxes */
+
+.scenario-wrapper{
+    display: flex;
+    flex-direction: column;
+    // border: 1px red solid;
+}
+
+.scenario-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    // border: 1px orange solid;
+}
+
+.scenario-item{
+    display:flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin:0.25rem;
+}
+
+.scenario-figure{
+    width:12rem;
+    margin:0px;
+    padding:0px;
+}
+
+.scenario-img{
+    width:12rem;
+    // border: 1px cyan solid;
+    margin:0px;
+    padding:0px;
+}
+
+.scenario-text{
+    font-size:0.8rem;
+}
 
 
 
@@ -136,7 +183,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3rem;
+    // padding-bottom: 3rem;
 }
 
 .multiple-image-wrapper {
@@ -151,6 +198,19 @@
 .image-caption {
     align-self: center;
     margin-bottom: 1rem;
+    // border: 1px red solid;
+}
+
+/* cards with gifs */
+
+.card-gif-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.card-gif-content{
+    width:18vw;
 }
 
 

@@ -34,7 +34,7 @@ body{
     h3{
         font-family: avenir, helvetica, sans-serif;
         font-weight: 500;
-        font-size:2rem;
+        font-size:1.8rem;
     }
     
     h4{
@@ -50,25 +50,10 @@ body{
         font-size:1.2rem;
     }
     
-    p{
-        font-family: avenir, helvetica, sans-serif;
-        color:$deep-blue;
-        font-size:1rem;
-        max-width:650px;
-        padding:0;
-        margin:0;
-        line-height:180%;
-        margin-top:1rem;
-
-        a:hover, a:active, a:focus, a:visited{
-            font-family: avenir, helvetica, sans-serif;
-            color:$accent-blue;
-        }
-    }
     
     ul{
         font-family: avenir, helvetica, sans-serif;
-        color:$dark-blue;
+        color:$deep-blue;
         font-size:1rem;
         padding-left:1.5rem;
         margin-top:1rem;
@@ -84,6 +69,7 @@ body{
         font-family: avenir, helvetica, sans-serif;
         color:$dark-blue;
         font-size:1rem;
+        max-width:500px;
 
         a:hover, a:active, a:focus, a:visited{
             font-family: avenir, helvetica, sans-serif;
@@ -93,10 +79,10 @@ body{
 
     .quote{
         font-weight:500;
-        font-size:1.5rem;
+        font-size:1.3rem;
         color:$deep-blue;
         font-style:italic;
-        // max-width:30rem;
+        max-width:600px;
     }
 
     .persona-quote{
@@ -145,6 +131,42 @@ body{
         // max-width:30rem;
     }
 
+}
+
+@media screen and (max-width:1200px){
+    p{
+        font-family: avenir, helvetica, sans-serif;
+        color:$deep-blue;
+        font-size:1rem;
+        max-width:600px;
+        padding:0;
+        margin:0;
+        line-height:180%;
+        margin-top:1rem;
+
+        a:hover, a:active, a:focus, a:visited{
+            font-family: avenir, helvetica, sans-serif;
+            color:$accent-blue;
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+    p{
+        font-family: avenir, helvetica, sans-serif;
+        color:$deep-blue;
+        font-size:1rem;
+        max-width:900px;
+        padding:0;
+        margin:0;
+        line-height:180%;
+        margin-top:1rem;
+
+        a:hover, a:active, a:focus, a:visited{
+            font-family: avenir, helvetica, sans-serif;
+            color:$accent-blue;
+        }
+    }
 }
 
 header{
@@ -285,4 +307,8 @@ footer{
   .light-tan-bg{
     background-color:$light-tan;
     border-radius:30px;
+  }
+
+  .landing-wrapper{
+    height:100vh;
   }
